@@ -1,0 +1,243 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+        \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+            \textbf{#1} & #2 \\
+            \textit{\small#3} & \textit{\small #4} \\
+        \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+            \textbf{#1} & #2 \\
+            \textit{\small#3} & \textit{\small #4} \\
+        \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+        \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+            \textit{\small#1} & \textit{\small #2} \\
+        \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%     \textbf{\href{https://ayooub.me}{\Large Jounaid Ayoub}} & Email: \href{mailto:jounaidayoub1@gmail.com}{jounaidayoub1@gmail.com}\\
+%     \href{https://ayooub.me}{• Portfolio : ayooub.me} & Mobile: \href{tel:+11234567890}{+1-123-456-7890} \\
+%     \href{https://github.com/Jounaidayoub}{• GitHub: Jounaidayoub} & \href{https://linkedin.com/in/ayooub}{LinkedIn: ayooub} \\
+% \end{tabular*}
+\vspace*{-2em}
+\begin{table}[t]
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+        \begin{minipage}{0.8\textwidth}
+            \begin{center}
+                \textbf{\Huge \scshape Jounaid Ayoub} \\ \vspace{1pt}
+                \small +212615739392 $|$ \href{mailto:jounaidayoub1@gmail.com}{\underline{jounaidayoub1@gmail.com}} $|$ 
+                \href{https://linkedin.com/in/Jounaidayoub}{\underline{LinkedIn}} $|$
+                \href{https://github.com/Jounaidayoub}{\underline{github.com/Jounaidayoub}}
+            \end{center}
+        \end{minipage}
+        &
+        \begin{minipage}{0.2\textwidth}
+            \begin{center}
+                % Profile picture
+                \includegraphics[width=90pt,height=90pt,keepaspectratio]{20220910_151032.jpg}
+            \end{center}
+        \end{minipage}
+    \end{tabular*}
+\end{table}
+\vspace*{-2em}
+
+%-----------ABOUT ME-----------------
+
+%-----------ABOUT ME-----------------
+\section{About Me}
+Curious and enthusiastic software engineering student passionate about building end-to-end AI solutions. Experienced in full-stack and high-performance backend systems development, with a strong focus on distributed architectures, real-time data processing, and systems programming. Particularly interested in LLMs, API development, containerization, and scalable, maintainable software architectures for AI applications. Skilled in performance optimization, low-latency systems, and robust documentation practices.
+\section{Education} \resumeSubHeadingListStart
+        \resumeSubheading
+            {FST Mohammadia}{Mohammadia, Morocco}
+            {Ingénierie Logicielle et Intégration des Systèmes Informatiques (ILISI)}{2024 -- Present}
+        \resumeSubheading
+            {CPGE Mohammadia}{Mohammadia, Morocco}
+            {MP (Mathematics and Physics)}{2022 -- 2024}
+    \resumeSubHeadingListEnd
+
+
+
+
+\section{Skills}
+ \resumeSubHeadingListStart
+     \item{
+         \textbf{Languages}{:  Python , JavaScript/Typescript, C/C++, Java, PHP, SQL, Bash} 
+     }
+        \item{
+            \textbf{Technologies/frameworks}{: Docker, FastAPI , Linux,  Git,  React.js, Nest.js, Kafka, Redis}
+        
+        }
+ \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{PROJECTS}
+    \resumeSubHeadingListStart
+
+        \resumeSubheading
+            {End-of-Year Project and Internship}{FSTM and Leyton CognitX Collaboration}
+            {High-Performance Real-Time Data Processing and Analysis System}{2025}
+            \resumeItemListStart
+                \resumeItem{Context}
+                    {Developed a high-performance system for processing and analyzing high-throughput financial market data in real time with minimal latency, capable of handling large volumes of data streams using decoupled and distributed components.}
+                \resumeItem{Technical Overview}
+                    {Utilized Kafka for high-volume data stream handling, Redis + Celery for distributed real-time processing, \textbf{FastAPI} for building robust APIs, and Elasticsearch for high-performance data storage and indexing. Implemented report generation in multiple formats (PDF, CSV, JSON) and asynchronous delivery via email.}
+                \resumeItem{Architecture}
+                    {Built on decoupled, independently scalable components using \textbf{Docker} for containerization, ensuring high availability, low latency, and efficient processing under heavy load, crucial for real-time anomaly detection in financial systems.}
+                \resumeItem{Learnings}
+                    {Gained valuable experience in backend and systems development, distributed architecture, asynchronous task execution, performance optimization, latency reduction, and system design patterns focused on scalability, resilience, and maintainability.}
+            \resumeItemListEnd
+
+            \resumeSubheading
+                {Recipe Sharing Platform}{React.js, Nest.js, AI}
+                {Full-Stack Web Application}{2024}
+                \resumeItemListStart
+                \resumeItem{Description}
+                    {Developed a web application allowing users to create, view, filter, and search for recipes.}
+                    \resumeItem{Features}
+                        {Implemented recipe creation, detailed recipe viewing, filtering, and search functionality for easy recipe discovery.}
+                    \resumeItem{AI Feature}
+                        {Integrated an AI conversational agent based on a language model (LLM) to assist users with recipe suggestions based on our Backend and answer Contexual questions.}
+                \resumeItemListEnd
+        \resumeSubheading
+            {Football Manager}{HTML, CSS, JS, PHP}
+            {Web Application}{2025}
+            \resumeItemListStart
+                \resumeItem{Description}
+                    {Developed a web application to track and display football matches.}
+                \resumeItem{Features}
+                    {Integrated an administration system for managing tournaments, players, and teams. Enabled real-time result updates and competition organization.}
+            \resumeItemListEnd
+
+        % \resumeSubheading
+        %     {INTERFACE BUILDER GTK3}{C, GTK3}
+        %     {Graphical Interface Design Tool}{2024}
+        %     \resumeItemListStart
+        %         \resumeItem{Description}
+        %             {Created a tool allowing users to design graphical interfaces without coding.}
+        %         \resumeItem{Features}
+        %             {Manual addition of interface elements with export to XML format. Developed a custom parser to interpret XML and generate the GUI application.}
+        %     \resumeItemListEnd
+
+        
+             \resumeSubheading
+                        {AI ASSISTANT FOR THE GYM}{PYTHON, OPENCV, MEDIAPIPE}
+                        {TIPE PROJECT}{2023}
+                        \resumeItemListStart
+                            \resumeItem{Description}
+                                {Developed a real-time training tracking application using computer vision.}
+                            \resumeItem{Features}
+                                {Implemented a repetition recognition system based on movement and range of motion analysis. Designed an algorithm to evaluate exercise execution quality and optimize performance tracking.}
+                            \resumeItem{Learnings}
+                                {Acquired fundamentals in artificial intelligence, particularly in image recognition and pose estimation.}
+                        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+% \section{Projects}
+%     \resumeSubHeadingListStart
+%         \resumeSubItem{QuantSoftware Toolkit}
+%             {Open source Python library for financial data analysis and machine learning for finance.}
+%         \resumeSubItem{GitHub Visualization}
+%             {Data visualization of Git log data using D3 to analyze project trends over time.}
+%         \resumeSubItem{Recommendation System}
+%             {Music and movie recommender systems using collaborative filtering on public datasets.}
+%         \resumeSubItem{Mac Setup}
+%             {Book that gives step-by-step instructions on setting up developer environment on macOS.}
+%     \resumeSubHeadingListEnd
+
+%
+%--------SKILLS------------
+
+%-------------------------------------------
+\end{document}
+%     \resumeSubHeadingListStart
+%         \resumeSubItem{QuantSoftware Toolkit}
+%             {Open source Python library for financial data analysis and machine learning for finance.}
+%         \resumeSubItem{GitHub Visualization}
+%             {Data visualization of Git log data using D3 to analyze project trends over time.}
+%         \resumeSubItem{Recommendation System}
+%             {Music and movie recommender systems using collaborative filtering on public datasets.}
+%         \resumeSubItem{Mac Setup}
+%             {Book that gives step-by-step instructions on setting up developer environment on macOS.}
+%     \resumeSubHeadingListEnd
+
+%
+%--------SKILLS------------
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,69 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Node.js CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [ 22.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+          
+      
+      - run: |
+          npm ci -f
+          
+          
+          
+          npm run build --if-present
+        
+      
+      - uses: peaceiris/actions-gh-pages@v4
+        if: github.event_name == 'push'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          
+        
+      
+            
+      - name: Check the other repo
+        uses: actions/checkout@v4
+        with:
+          repository: Jounaidayoub/jounaidayoub.github.io
+          path: secondary-repo
+          token: ${{ secrets.PAT }}
+
+      - run: |
+          rm -rf ./*
+          
+          
+          cp -r ../dist/* .
+        working-directory: ./secondary-repo
+      - name: Commit files
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          echo "ayoub.is-a.dev" > CNAME
+          git add .
+          git commit -m "${{ github.event.head_commit.message }}"
+
+          git push origin main
+        working-directory: ./secondary-repo
