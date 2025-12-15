@@ -38,7 +38,7 @@ export const experiences: Experience[] = [
       "Unit & Integration Testing",
       "A/B Testing"
     ],
-    type: "work",
+    type: "1 year 1 month",
   },
   {
     company: "Google",
@@ -52,7 +52,7 @@ export const experiences: Experience[] = [
       "Scoped and prioritized UI redesign tasks with product and engineering leads, delivering iterative improvements supporting 5 high-impact feature launches"
     ],
     technologies: ["React", "TypeScript", "UI/UX Optimization", "Agile/Scrum"],
-    type: "work",
+    type: "4 months",
   },
   {
     company: "Techtonica",
@@ -68,10 +68,10 @@ export const experiences: Experience[] = [
       "Championed rollout of React Testing Library, increasing test coverage by 70% and improving application stability"
     ],
     technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "REST APIs", "OpenAPI", "Agile/Scrum", "Testing"],
-    type: "work",
+    type: "1 year 2 months",
   },
   {
-    company: "EDGE in TechTM Initiative at UC Berkeley",
+    company: "UC Berkeley",
     title: "Software Engineer",
     duration: "Aug 2021 - May 2022",
     location: "Berkeley, CA",
@@ -82,7 +82,7 @@ export const experiences: Experience[] = [
       "Maintained Python-based data analysis tooling, identifying correlations with ed-tech integrations and demonstrating significant improvements in test scores (p < 0.001)"
     ],
     technologies: ["React", "Python", "Data Analysis", "UI Development", "Visualization"],
-    type: "work",
+    type: "9 months",
   },
   {
     company: "Leyton CognitX",
