@@ -32,7 +32,7 @@ const Contact = () => {
       id="contact"
       className="w-full flex flex-col items-center justify-center gap-6 py-24 px-6 scroll-mt-24"
     >
-      <h2 className="text-3xl font-bold">Contact</h2>
+      <h2 className="text-3xl font-bold">Let's Connect</h2>
       <p className="text-center max-w-xl text-zinc-700 dark:text-zinc-300">
         Have an opportunity, a question, or just want to say hi? Reach out via
         any of the platforms below.
@@ -52,7 +52,7 @@ const Contact = () => {
         </Button>
         <Button asChild className="gap-2 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 hover:bg-zinc-800 dark:hover:bg-zinc-200">
           <a
-            href="https://github.com/jounaidayoub"
+            href="https://github.com/rahmamahdi02"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -61,7 +61,7 @@ const Contact = () => {
         </Button>
         <Button asChild variant="outline" className="gap-2">
           <a
-            href="https://www.linkedin.com/in/jounaidayoub/"
+            href="https://www.linkedin.com/in/rahmamahdi/"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -14,6 +14,15 @@ const HeroSection = ({ children }: Props) => {
     <>
       <main className="mb-30 mb-70 flex h-[80vh] flex-col items-center justify-center gap-20 p-5 pt-84 sm:mb-0 sm:flex-row sm:pt-0">
         <div className="max-w-120">
+        <div className="max-w-120 mb-4">
+  <div className="inline-flex items-center rounded-full border-2 border-primary/50 bg-primary/10 px-4 py-1 text-sm font-medium text-primary shadow-glow">
+    <span className="relative mr-2 flex h-3 w-3">
+      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary/75 opacity-75"></span>
+      <span className="relative inline-flex h-3 w-3 rounded-full bg-primary"></span>
+    </span>
+    Open to opportunities
+  </div>
+</div>
           <p className="text-foreground max-w-2xl font-mono text-lg">
             Software Engineer experienced in shipping 
             features to production and <Underline>scaling ML-powered systems used by 120M+ users.</Underline>
