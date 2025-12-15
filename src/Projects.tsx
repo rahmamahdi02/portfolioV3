@@ -97,7 +97,7 @@ const projectData: Project[] = [
       { name: "Tailwind CSS", icon: "tailwindcss" },
     ],
     codeLink: "https://github.com/rmahdi/",
-    demoLink: "https://ayooub.me/",
+    demoLink: "https://rmahdi.dev/",
   },
 ];
 
