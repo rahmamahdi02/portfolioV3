@@ -77,7 +77,7 @@ const Projects = () => {
       >
         <h1 className="text-3xl font-bold">Projects</h1>
         <p className="text-muted-foreground max-w-2xl pb-10 text-center text-lg">
-        Over the past 5 years, I've leveraged projects as learning experiences, which should explain the breadth of technologies/principles on this page.
+        I've leveraged projects as learning experiences, which should explain the breadth of technologies/principles on this page.
         </p>
         <div className="h-[100px]: grid w-full grid-cols-1 gap-3 sm:grid-cols-2">
           {projectData.map((project, index) => (

@@ -26,7 +26,8 @@ const HeroSection = ({ children }: Props) => {
           <p className="text-foreground max-w-2xl font-mono text-lg">
             Software Engineer experienced in shipping 
             features to production and <Underline>scaling ML-powered systems used by 120M+ users.</Underline>
-            
+            </p>
+            <p className="text-foreground max-w-2xl font-mono text-lg">           
             Experienced in end-to-end development of internal SDKs, full-stack
             applications, and developer tooling. Skilled in rapidly prototyping
             0→1 products, optimizing ML pipelines, and shipping reliable,
@@ -59,7 +60,7 @@ const HeroSection = ({ children }: Props) => {
               className="group flex w-1/4 items-center justify-center gap-2 hover:shadow-lg"
             >
               <a
-                href={"https://github.com/jounaidayoub"}
+                href={"https://github.com/rahmamahdi02"}
                 target="_blank"
                 rel="noopener noreferrer"
               >
