@@ -23,6 +23,8 @@ const HeroSection = ({ children }: Props) => {
     Open to opportunities
   </div>
 </div>
+          <p className="text-foreground max-w-2xl font-mono text-lg">Hi, I'm Rahma M. 👋 </p>
+
           <p className="text-foreground max-w-2xl font-mono text-lg">
             Software Engineer experienced in shipping 
             features to production and <Underline>scaling ML-powered systems used by 120M+ users.</Underline>
