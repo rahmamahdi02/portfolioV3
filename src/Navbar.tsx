@@ -24,8 +24,7 @@ const Navbar = () => {
         <div className="ml-5 font-serif text-2xl underline">
           <UnderlineToBackground targetTextColor="black">
            <a href="/">
-
-            Rahma Mahdi
+           rmahdi.dev
            </a>
             {/* </Link> */}
           </UnderlineToBackground>
