@@ -75,7 +75,7 @@ const Projects = () => {
         id="Portfolio"
         className="flex min-h-0 w-full flex-col items-center justify-center gap-4 px-4"
       >
-        <h1 className="text-3xl font-bold">Projects</h1>
+        <h1 className="text-3xl font-bold font-mono">Projects</h1>
         <p className="text-muted-foreground max-w-2xl pb-10 text-center text-lg">
         I've leveraged projects as learning experiences, which should explain the breadth of technologies/principles on this page.
         </p>

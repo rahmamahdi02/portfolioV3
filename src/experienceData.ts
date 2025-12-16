@@ -90,7 +90,7 @@ export const experiences: Experience[] = [
   },
   {
     company: "University of California, Berkeley",
-    companyLogo: "/images/leytoncognitx_logo.jpeg",
+    companyLogo: "/images/logos/school_education.jpg",
     title: "Undergraduate Researcher",
     duration: "Sep 2021 - May 2022",
     location: "Berkeley, California",
