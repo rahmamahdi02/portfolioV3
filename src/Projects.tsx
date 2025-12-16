@@ -72,13 +72,12 @@ const Projects = () => {
   return (
     <>
       <div
-        id="Projects"
+        id="Portfolio"
         className="flex min-h-0 w-full flex-col items-center justify-center gap-4 px-4"
       >
         <h1 className="text-3xl font-bold">Projects</h1>
         <p className="text-muted-foreground max-w-2xl pb-10 text-center text-lg">
-          Here are some of the projects I have worked on recently. You can find
-          more details and code on my GitHub profile.
+        Over the past 5 years, I've leveraged projects as learning experiences, which should explain the breadth of technologies/principles on this page.
         </p>
         <div className="h-[100px]: grid w-full grid-cols-1 gap-3 sm:grid-cols-2">
           {projectData.map((project, index) => (
