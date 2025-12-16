@@ -12,7 +12,7 @@ interface Props {
 const HeroSection = ({ children }: Props) => {
   return (
     <>
-      <main className="mb-30 mb-70 flex h-[80vh] flex-col items-center justify-center gap-20 p-5 pt-84 sm:mb-0 sm:flex-row sm:pt-0">
+  <main className="flex h-[80vh] flex-col items-center justify-center gap-10 p-5 sm:flex-row">
         <div className="max-w-120">
         <div className="max-w-120 mb-4">
   <div className="inline-flex items-center rounded-full border-2 border-primary/50 bg-primary/10 px-4 py-1 text-sm font-medium text-primary shadow-glow">
@@ -23,10 +23,13 @@ const HeroSection = ({ children }: Props) => {
     Open to opportunities
   </div>
 </div>
+          <p className="text-foreground max-w-2xl font-mono text-lg">Hi, I'm Rahma M. 👋 </p>
+
           <p className="text-foreground max-w-2xl font-mono text-lg">
             Software Engineer experienced in shipping 
             features to production and <Underline>scaling ML-powered systems used by 120M+ users.</Underline>
-            
+            </p>
+            <p className="text-foreground max-w-2xl font-mono text-lg">           
             Experienced in end-to-end development of internal SDKs, full-stack
             applications, and developer tooling. Skilled in rapidly prototyping
             0→1 products, optimizing ML pipelines, and shipping reliable,
@@ -59,7 +62,7 @@ const HeroSection = ({ children }: Props) => {
               className="group flex w-1/4 items-center justify-center gap-2 hover:shadow-lg"
             >
               <a
-                href={"https://github.com/jounaidayoub"}
+                href={"https://github.com/rahmamahdi02"}
                 target="_blank"
                 rel="noopener noreferrer"
               >
