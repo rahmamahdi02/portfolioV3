@@ -12,7 +12,7 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    company: "Playstaion (Sony Interactive Media)",
+    company: "Playstaion (Sony Interactive Entertainment)",
     companyLogo: "/images/logos/playstation.png",
     title: "Software Engineer (Contract)",
     duration: "Jul 2024 – Jul 2025",
@@ -74,7 +74,7 @@ export const experiences: Experience[] = [
     type: "1 year 2 months",
   },
   {
-    company: "UC Berkeley",
+    company: "EDGE in Tech™ Initiative at UC Berkeley",
     companyLogo: "/images/logos/ucberkeley.jpg",
     title: "Software Developer",
     duration: "Aug 2021 - May 2022",
