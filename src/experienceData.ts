@@ -12,8 +12,8 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    company: "Sony Interactive Entertainment",
-    companyLogo: "/images/sony_logo.jpeg",
+    company: "Playstaion (Sony Interactive Media)",
+    companyLogo: "/images/logos/playstation.png",
     title: "Software Engineer (Contract)",
     duration: "Jul 2024 – Jul 2025",
     location: "San Francisco, CA",
@@ -30,6 +30,7 @@ export const experiences: Experience[] = [
     technologies: [
       "C++",
       "TypeScript",
+      "React.js",
       "React Native",
       "TensorFlow Lite",
       "LiteRT",
@@ -42,6 +43,7 @@ export const experiences: Experience[] = [
   },
   {
     company: "Google",
+    companyLogo: "/images/logos/techprep.jpg",
     title: "Software Engineering Fellow",
     duration: "Nov 2024 - Feb 2025",
     location: "San Francisco, CA",
@@ -56,6 +58,7 @@ export const experiences: Experience[] = [
   },
   {
     company: "Techtonica",
+    companyLogo: "/images/logos/techtonica.jpg",
     title: "Full-Stack Software Engineer",
     duration: "Nov 2022 - Dec 2023",
     location: "San Francisco, CA",
@@ -72,6 +75,7 @@ export const experiences: Experience[] = [
   },
   {
     company: "UC Berkeley",
+    companyLogo: "/images/logos/ucberkeley.jpg",
     title: "Software Engineer",
     duration: "Aug 2021 - May 2022",
     location: "Berkeley, CA",
