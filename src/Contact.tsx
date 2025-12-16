@@ -3,7 +3,7 @@ import { Mail, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
-  const email = "contact@ayooub.me";
+  const email = "rahmamahdi.02@gmail.com";
   const [copied, setCopied] = useState(false);
   const timeoutRef = useRef<number | null>(null);
 
