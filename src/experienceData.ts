@@ -61,7 +61,7 @@ export const experiences: Experience[] = [
     companyLogo: "/images/logos/techtonica.jpg",
     title: "Full-Stack Software Engineer",
     duration: "Nov 2022 - Dec 2023",
-    location: "San Francisco, CA",
+    location: "Remote",
     description:
       "Built and scaled React-based curriculum tools for 600+ developers, leading cross-functional teams and ensuring robust production-ready applications with modern front-end and back-end technologies.",
     bullets: [
@@ -76,7 +76,7 @@ export const experiences: Experience[] = [
   {
     company: "UC Berkeley",
     companyLogo: "/images/logos/ucberkeley.jpg",
-    title: "Software Engineer",
+    title: "Software Developer",
     duration: "Aug 2021 - May 2022",
     location: "Berkeley, CA",
     description:
@@ -89,11 +89,11 @@ export const experiences: Experience[] = [
     type: "9 months",
   },
   {
-    company: "Leyton CognitX",
+    company: "University of California, Berkeley",
     companyLogo: "/images/leytoncognitx_logo.jpeg",
-    title: "Software Engineer (Internship)",
-    duration: "May 2025 - Jun 2025",
-    location: "Casablanca, Morocco",
+    title: "Undergraduate Researcher",
+    duration: "Sep 2021 - May 2022",
+    location: "Berkeley, California",
     description:
       "I worked on a distributed real-time data processing system for financial market analysis, handling massive data streams with minimal latency requirements. The system processes thousands of financial records per second while performing anomaly detection and maintaining high availability.",
     bullets: [
@@ -119,7 +119,7 @@ export const experiences: Experience[] = [
       "Docker Compose",
       "Networking",
     ],
-    type: "work",
+    type: "5 months",
     // companyLogo: "/images/companies/leyton-cognitx.png",
   },
 ];
