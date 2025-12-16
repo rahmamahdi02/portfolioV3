@@ -16,7 +16,7 @@ const projectData: Project[] = [
       { name: "Hono", icon: "hono" },
     ],
     codeLink: "https://github.com/rmahdi/dotunnel",
-    demoLink: "https://www.npmjs.com/package/dotunnel",
+    demoLink: "https://www.npmjs.com/package/rmadhi",
   },
 
   {
@@ -65,39 +65,6 @@ const projectData: Project[] = [
     ],
     codeLink: "https://github.com/rmahdi/finance",
     // demoLink: "https://example.com/",
-  },
-  {
-    title: "Football Manager",
-    description:
-      "A platform to create and manage local football tournaments, teams, and players. Users can view teams, matches, stats, live scores, and admins can manage matches.",
-    image: [
-      "images/screens/search.png",
-      "images/screens/comming.png",
-      "images/screens/team.png",
-      "images/screens/profile.png",
-    ],
-    techStack: [
-      { name: "PHP", icon: "php" },
-      { name: "HTML", icon: "html5" },
-      { name: "CSS", icon: "css" },
-      { name: "JavaScript", icon: "js" },
-      { name: "MySQL", icon: "mysql" },
-    ],
-    codeLink: "https://github.com/rmahdi/foot_match_track",
-    // demoLink: "https://example.com/",
-  },
-  {
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website to showcase my projects and skills. (the one u browsing right now hhh) ",
-    image: ["images/portfolio/portfolio-screenshot.png"],
-    techStack: [
-      { name: "React", icon: "react" },
-      { name: "TypeScript", icon: "typescript" },
-      { name: "Tailwind CSS", icon: "tailwindcss" },
-    ],
-    codeLink: "https://github.com/rmahdi/",
-    demoLink: "https://rmahdi.dev/",
   },
 ];
 
