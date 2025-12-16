@@ -18,18 +18,16 @@ const Navbar = () => {
   }, [dark]);
 
   return (
-    <header className="sticky top-0 z-10 mx-5 pt-5 font-mono text-lg">
-      <div className="flex flex-row items-center justify-between">
-        {/* Branding */}
-        <div className="ml-5 font-serif text-2xl underline">
-          <UnderlineToBackground targetTextColor="black">
-           <a href="/">
-           rmahdi.dev
-           </a>
-            {/* </Link> */}
-          </UnderlineToBackground>
-        </div>
-
+<header className="sticky top-0 z-10 mx-5 pt-5 font-mono text-lg">
+  <div className="flex flex-row items-center justify-between">
+    {/* Branding */}
+    <div className="ml-5 font-serif text-2xl underline">
+      <UnderlineToBackground targetTextColor="currentColor">
+        <a href="/" className="text-black dark:text-white">
+          rmahdi.dev
+        </a>
+      </UnderlineToBackground>
+    </div>
         {/* Desktop Nav */}
         <nav className="hidden flex-row items-center gap-4 md:flex">
           <a className="hover:underline" href="#">
